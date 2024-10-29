@@ -1,0 +1,41 @@
+body
+{
+    font-family: Geneva;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#dealer-cards img
+{
+    height: 175px;
+    margin: 2px;
+}
+
+#player-cards img
+{
+    height: 175px;
+    margin: 2px;
+}
+
+#hit, #reset, #stay {
+    background-color: #008CBA;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px 0 #006699;
+    width: 100px;
+    animation: example 1s infinite;
+    cursor: pointer;
+  }
+  
+  @keyframes example {
+    0% {background-color: #008CBA;}
+    50% {background-color: #006699;}
+    100% {background-color: #008CBA;}
+  }
